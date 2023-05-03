@@ -1,0 +1,5 @@
+*.pem
+*.key
+*.crt
+local_devices/AWScredentials/
+AWScredentials/kaelthing-Policy
