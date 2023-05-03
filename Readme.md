@@ -1,4 +1,4 @@
-# Scripts for iot labs
+# Scripts para iot labs
 
 ### inicializar el servicio mosquito
 
@@ -8,18 +8,10 @@ net start mosquitto
 net stop mosquitto
 ```
 
-***deviceSub1.py***
-
-Este es el script para el corredor local, se suscribe y publica datos, tiene un ciclo while para iterar una impresión en la consola y ver el tránsito de datos.
-
-***localTOaws.py***
-
-This script connect local broker and aws broker, then configure the client for aws iot core
-
 ### local devices emulator
 
-Devices emulating broker servers sensors "...ping Device ## local... [###]"
-local_devices -> device10.py, device20.py & device30.py
+Dispositivos que emulan dispositivos o servidores intermediarios "...ping Device ## local... [###]"
+-> device10.py, device20.py & device30.py
 
 ### to verificate trafic:
 
