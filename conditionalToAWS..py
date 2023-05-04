@@ -10,14 +10,14 @@ from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 # TOPICOS EN AWS IOT CORE
 #################################
 
-topic = "kael/topic"
+topic = "topic/subtopic"
 
-# AWS IoT Core Credentials
-CLIENT_ID = "kaelthing"
-endpoint = "a1qbb6z7r5edap-ats.iot.us-east-1.amazonaws.com"
-root_ca_path = "AWScredentials/root-CA.crt"
-cert_file = "AWScredentials/kaelthing.cert.pem"
-key_file = "AWScredentials/kaelthing.private.key"
+# AWS IoT Core Credenciales
+CLIENT_ID = "<inserte el client_id o nombre el objeto>"
+endpoint = "<inserte el endpoint ejm: a1qbb6z7xxxxxx-ats.iot.us-east-1.amazonaws.com>"
+root_ca_path = "AWScredentials/<inserte root-CA.crt>"
+cert_file = "AWScredentials/<inserte *.cert.pem>"
+key_file = "AWScredentials/<inserte *.>"
 
 # AWS IoT Core MQTT Broker Port
 port = 8883
