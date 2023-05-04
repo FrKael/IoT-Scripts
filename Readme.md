@@ -8,12 +8,12 @@ net start mosquitto
 net stop mosquitto
 ```
 
-### local devices emulator
+### emulador de dispositivos locales:
 
 Dispositivos que emulan dispositivos o servidores intermediarios "...ping Device ## local... [###]"
 -> device10.py, device20.py & device30.py
 
-### to verificate trafic:
+### para verificar el trafico:
 
 ```bash
 Terminal command:
